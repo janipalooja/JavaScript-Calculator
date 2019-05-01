@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>JavaScript Calculator</title>
       <link rel="stylesheet" href="css/style.css">
+
    </head>
    <body>
 
@@ -14,33 +15,35 @@
          <div id="buttons">
             <table cellspacing="15">
                <tr>
-                  <td class="button">7</td>
-                  <td class="button">8</td>
-                  <td class="button">9</td>
-                  <td class="button operation">/</td>
+                  <td><button class="button" onclick="buttonPressed()">7</button></td>
+                  <td><button class="button" onclick="buttonPressed()">8</button></td>
+                  <td><button class="button" onclick="buttonPressed()">9</button></td>
+                  <td><button class="button operation" onclick="buttonPressed()">/</button></td>
                </tr>
                <tr>
-                  <td class="button">4</td>
-                  <td class="button">5</td>
-                  <td class="button">6</td>
-                  <td class="button operation">*</td>
+                  <td><button class="button" onclick="buttonPressed()">4</button></td>
+                  <td><button class="button" onclick="buttonPressed()">5</button></td>
+                  <td><button class="button" onclick="buttonPressed()">6</button></td>
+                  <td><button class="button operation" onclick="buttonPressed()">*</button></td>
                </tr>
                <tr>
-                  <td class="button">1</td>
-                  <td class="button">2</td>
-                  <td class="button">3</td>
-                  <td class="button operation">-</td>
+                  <td><button class="button" onclick="buttonPressed()">3</button></td>
+                  <td><button class="button" onclick="buttonPressed()">2</button></td>
+                  <td><button class="button" onclick="buttonPressed()">1</button></td>
+                  <td><button class="button operation" onclick="buttonPressed()">-</button></td>
                </tr>
                <tr>
-                  <td class="button clear">C</td>
-                  <td class="button">0</td>
-                  <td class="button">.</td>
-                  <td class="button operation">+</td>
+                  <td><button class="button clear" onclick="buttonPressed()">C</button></td>
+                  <td><button class="button" onclick="buttonPressed()">0</button></td>
+                  <td><button class="button" onclick="buttonPressed()">.</button></td>
+                  <td><button class="button operation" onclick="buttonPressed()">+</button></td>
                </tr>
             </table>
-            <div class="button equals"><span class="text">=</span></div>
+            <div id="equals">
+              <button class="button equals" onclick="buttonPressed()">=</button>
+            </div>
          </div>
       </div>
-
+<script src="calculator.js" charset="utf-8"></script>
    </body>
 </html>

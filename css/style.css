@@ -31,32 +31,34 @@ html, body {
    margin-top: 45px;
 }
 
-.button {
+button.button {
    width: 50px;
    height: 50px;
    background: #666;
    text-align: center;
    color: #fff;
    font-size: 20px;
+   border: 1px #666 solid;
    border-radius: 10px;
 }
 
 .button.clear {
    background: #ff5747;
+   border: 1px #dd5747 solid;
 }
 
 .button.operation {
    background: #4793ff;
 }
 
-.button.equals {
+#equals {
    width: 250px;
-   height: 40px;
+   height: 50px;
    margin: 0 auto;
-   padding-top: 20px;
-   background: #ffb347;
 }
 
-.button.equals.text {
-
+.button.equals {
+  width: 250px;
+  height: 50px;
+  background: #ffb347;
 }
