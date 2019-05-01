@@ -15,35 +15,35 @@
          <div id="buttons">
             <table cellspacing="15">
                <tr>
-                  <td><button class="button" onclick="buttonPressed()">7</button></td>
-                  <td><button class="button" onclick="buttonPressed()">8</button></td>
-                  <td><button class="button" onclick="buttonPressed()">9</button></td>
-                  <td><button class="button operation" onclick="buttonPressed()">/</button></td>
+                  <td><button class="button" onclick="buttonPressed(7)">7</button></td>
+                  <td><button class="button" onclick="buttonPressed(8)">8</button></td>
+                  <td><button class="button" onclick="buttonPressed(9)">9</button></td>
+                  <td><button class="button operation" onclick="buttonPressed('/')">/</button></td>
                </tr>
                <tr>
-                  <td><button class="button" onclick="buttonPressed()">4</button></td>
-                  <td><button class="button" onclick="buttonPressed()">5</button></td>
-                  <td><button class="button" onclick="buttonPressed()">6</button></td>
-                  <td><button class="button operation" onclick="buttonPressed()">*</button></td>
+                  <td><button class="button" onclick="buttonPressed(4)">4</button></td>
+                  <td><button class="button" onclick="buttonPressed(5)">5</button></td>
+                  <td><button class="button" onclick="buttonPressed(6)">6</button></td>
+                  <td><button class="button operation" onclick="buttonPressed('*')">*</button></td>
                </tr>
                <tr>
-                  <td><button class="button" onclick="buttonPressed()">3</button></td>
-                  <td><button class="button" onclick="buttonPressed()">2</button></td>
-                  <td><button class="button" onclick="buttonPressed()">1</button></td>
-                  <td><button class="button operation" onclick="buttonPressed()">-</button></td>
+                  <td><button class="button" onclick="buttonPressed(3)">3</button></td>
+                  <td><button class="button" onclick="buttonPressed(2)">2</button></td>
+                  <td><button class="button" onclick="buttonPressed(1)">1</button></td>
+                  <td><button class="button operation" onclick="buttonPressed('-')">-</button></td>
                </tr>
                <tr>
-                  <td><button class="button clear" onclick="buttonPressed()">C</button></td>
-                  <td><button class="button" onclick="buttonPressed()">0</button></td>
-                  <td><button class="button" onclick="buttonPressed()">.</button></td>
-                  <td><button class="button operation" onclick="buttonPressed()">+</button></td>
+                  <td><button class="button clear" onclick="buttonPressed('C')">C</button></td>
+                  <td><button class="button" onclick="buttonPressed(0)">0</button></td>
+                  <td><button class="button" onclick="buttonPressed('.')">.</button></td>
+                  <td><button class="button operation" onclick="buttonPressed('+')">+</button></td>
                </tr>
             </table>
             <div id="equals">
-              <button class="button equals" onclick="buttonPressed()">=</button>
+              <button class="button equals" onclick="buttonPressed('=')">=</button>
             </div>
          </div>
       </div>
-<script src="calculator.js" charset="utf-8"></script>
+      <script src="js/calculator.js" charset="utf-8"></script>
    </body>
 </html>
